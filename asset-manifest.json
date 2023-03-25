@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MoviezLand-react/static/css/main.1ca7b7ce.css",
-    "main.js": "/MoviezLand-react/static/js/main.d14ef1b2.js",
-    "static/media/banner.jpg": "/MoviezLand-react/static/media/banner.993456d946cc042772c3.jpg",
-    "static/media/vanishing-stripes.png": "/MoviezLand-react/static/media/vanishing-stripes.caed09f3d6fa6d7faa81.png",
-    "index.html": "/MoviezLand-react/index.html",
-    "main.1ca7b7ce.css.map": "/MoviezLand-react/static/css/main.1ca7b7ce.css.map",
-    "main.d14ef1b2.js.map": "/MoviezLand-react/static/js/main.d14ef1b2.js.map"
+    "main.css": "/devAhmedSixSixSix/MoviezLand-react/static/css/main.9f2423cc.css",
+    "main.js": "/devAhmedSixSixSix/MoviezLand-react/static/js/main.d3bed75f.js",
+    "static/media/banner.jpg": "/devAhmedSixSixSix/MoviezLand-react/static/media/banner.993456d946cc042772c3.jpg",
+    "static/media/vanishing-stripes.png": "/devAhmedSixSixSix/MoviezLand-react/static/media/vanishing-stripes.caed09f3d6fa6d7faa81.png",
+    "index.html": "/devAhmedSixSixSix/MoviezLand-react/index.html",
+    "main.9f2423cc.css.map": "/devAhmedSixSixSix/MoviezLand-react/static/css/main.9f2423cc.css.map",
+    "main.d3bed75f.js.map": "/devAhmedSixSixSix/MoviezLand-react/static/js/main.d3bed75f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ca7b7ce.css",
-    "static/js/main.d14ef1b2.js"
+    "static/css/main.9f2423cc.css",
+    "static/js/main.d3bed75f.js"
   ]
 }
