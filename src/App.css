@@ -1,38 +1,77 @@
-.App {
+body {
+  background-image: url(./Assest/Images/vanishing-stripes.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+ /* change swiper  Pagination Bullets color */
+
+ .swiper-pagination-bullet-active-next,
+ .swiper-pagination-bullet-active-next-next,
+ .swiper-pagination-bullet-active-prev {
+   background-color: white !important;
+   opacity: 1 !important;
+ }
+
+
+.pointer {
+  cursor: pointer;
+  background-image: url();
+  background-size: cover;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #002163 0%,
+    #004e92 51%,
+    #000022 100%
+  );
   text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #fff !important;
+  border-radius: 100px;
+  border: 0;
+  display: block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.offcanvas-backdrop.show {
+  opacity: 1;
+  background-color: rgba(15, 23, 42, 1);
+  backdrop-filter: blur(8px);
+}
+
+.offcanvas,
+.dropdown-menu.show {
+  background-color:#001D56 !important;
+}
+
+.dropdown-menu.show{
+  border-color: white !important;
+}
+
+a.dropdown-item,
+.dropdown-toggle{
+  color: white !important;
+}
+
+a.dropdown-item:hover{
+    background-color: #0D6EFD !important;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
