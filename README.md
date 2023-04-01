@@ -15,6 +15,7 @@ Users should be able to:
 2. See the movies section's.
 3. See the Movie detils and some related movies
 4. see actor detils
+5. search for moviez
 4. Bulid Movies libarary for the movies you wanna save it for later. 
 5. I do not have access to the Figma sketch so the design is not pixel perfect.
 
